@@ -1,0 +1,174 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'lato', sans-serif;
+  font-size: small;
+  line-height: 1.5;
+}
+
+button {
+  background: none;
+  text-align: center;
+  padding: 0.125em 0.5em;
+  border-radius: 3px;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 1.5px 1.5px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.hidden {
+  display: none;
+}
+
+.container {
+  width: 95%;
+  margin: 0 auto;
+  min-height: 100vh;
+  padding: 1.5em 0;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+  background: rgba(255, 255, 255, 0.5);
+  padding: 0.25em 0.5em;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav-list {
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav-item:nth-of-type(2) {
+  border-left: 2px solid rgba(0, 0, 0, 0.5);
+  border-right: 2px solid rgba(0, 0, 0, 0.5);
+  margin: 0 0.5em;
+  padding: 0 0.5em;
+}
+
+.section-one,
+.form,
+.contact {
+  flex: 1;
+}
+
+.header-title {
+  text-align: center;
+  font-size: x-large;
+  margin-bottom: 0.5em;
+}
+
+#date-display {
+  padding: 10px 0;
+  width: 100%;
+  text-align: right;
+}
+
+.books-cont,
+input,
+.footer,
+.header {
+  border: 2.5px solid rgba(0, 0, 0, 0.5);
+  border-radius: 3px;
+  box-shadow: 1.5px 1.5px;
+}
+
+.books {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.25em 0.5em;
+}
+
+.books:nth-of-type(odd) {
+  background: rgba(211, 211, 211, 0.7);
+}
+
+.books:nth-of-type(even) {
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.line {
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  border-bottom-left-radius: 80%;
+  border-top-right-radius: 80%;
+  width: 20%;
+  margin: 0 auto;
+  margin-top: 1.5em;
+}
+
+.form-list,
+.contact-desc {
+  padding-top: 2em;
+}
+
+.form-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+}
+
+.form-item {
+  text-align: center;
+  width: 50%;
+}
+
+.form-item input {
+  width: 100%;
+  padding: 0.25em 0.5em;
+}
+
+.form-item:nth-child(3) {
+  text-align: right;
+}
+
+.formBtn {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.contact {
+  font-size: larger;
+  margin: 0 auto;
+  padding: 0 3em;
+}
+
+.contact-list {
+  list-style-type: disc;
+  padding-top: 0.5em;
+  padding-left: 3em;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1em;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 0.25em 0.5em;
+}
+
+.footer p:last-of-type {
+  font-size: smaller;
+}
