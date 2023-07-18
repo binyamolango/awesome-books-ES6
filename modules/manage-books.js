@@ -49,4 +49,4 @@ class BookManager {
 }
 
 const bookManager1 = new BookManager();
-bookManager1.update();
+export default bookManager1;
