@@ -26,7 +26,6 @@
 
 > This is a simple web application that allows you to keep track of a collection of books. You can add books to the collection, remove books from the collection, and view all the books in the collection.
 
-
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
