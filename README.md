@@ -47,7 +47,6 @@
 
 ### Key Features <a name="key-features"></a>
 
-
 - **Simple UI-Design**
 - **Add Books**
 - **Remove Books**
